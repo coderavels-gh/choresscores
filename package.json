@@ -1,0 +1,19 @@
+{
+  "name": "chorescores",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:migrate:local": "wrangler d1 migrations apply chorescores --local",
+    "db:migrate:remote": "wrangler d1 migrations apply chorescores --remote",
+    "icons": "node scripts/make-icons.js"
+  },
+  "devDependencies": {
+    "wrangler": "^4.151.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "workerd@1.20261019.1": true
+  }
+}
