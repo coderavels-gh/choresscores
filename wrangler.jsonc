@@ -13,8 +13,7 @@
     {
       "binding": "DB",
       "database_name": "chorescores",
-      // Replace with the id printed by `npx wrangler d1 create chorescores`.
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "2a0f267a-dcde-47d1-a13e-4a31edef256d",
       "migrations_dir": "migrations"
     }
   ]
